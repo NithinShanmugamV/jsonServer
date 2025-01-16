@@ -1,3 +1,531 @@
 {
-  "data": []
+  "users": [
+    {
+      "id": "U001",
+      "name": "John Doe",
+      "email": "john.doe@vetclinic.com",
+      "phone": "6333333999",
+      "role": "VET",
+      "primaryPracticeNumber": "P101",
+      "additionalPracticeNumbers": [
+        "P102",
+        "P103"
+      ],
+      "licenseState": "CA",
+      "licenseExpiry": "2025-06-30"
+    },
+    {
+      "id": "U002",
+      "name": "Sarah Smith",
+      "email": "sarah.smith@pmclinic.com",
+      "phone": "6444444999",
+      "role": "PM",
+      "primaryPracticeNumber": "P102",
+      "additionalPracticeNumbers": [
+        "P101",
+        "P103"
+      ]
+    },
+    {
+      "id": "U003",
+      "name": "Admin User",
+      "email": "admin@admin.com",
+      "phone": "6222222999",
+      "role": "ADMIN"
+    },
+    {
+      "id": "U004",
+      "name": "Emma Brown",
+      "email": "emma.brown@vetclinic.com",
+      "phone": "6555555999",
+      "role": "VET",
+      "primaryPracticeNumber": "P103",
+      "additionalPracticeNumbers": [
+        "P104",
+        "P105"
+      ],
+      "licenseState": "TX",
+      "licenseExpiry": "2026-03-15"
+    },
+    {
+      "id": "U005",
+      "name": "Michael Green",
+      "email": "michael.green@pmclinic.com",
+      "phone": "6666666999",
+      "role": "PM",
+      "primaryPracticeNumber": "P104",
+      "additionalPracticeNumbers": [
+        "P105",
+        "P106"
+      ]
+    },
+    {
+      "id": "U006",
+      "name": "Olivia White",
+      "email": "olivia.white@vetclinic.com",
+      "phone": "6777777999",
+      "role": "VET",
+      "primaryPracticeNumber": "P105",
+      "additionalPracticeNumbers": [
+        "P103",
+        "P104"
+      ],
+      "licenseState": "NY",
+      "licenseExpiry": "2027-08-10"
+    }
+  ],
+  "practices": [
+    {
+      "practiceNumber": "P101",
+      "name": "Greenfield Veterinary Clinic",
+      "phone": "6333333999",
+      "address": "123 Vet Street, CA"
+    },
+    {
+      "practiceNumber": "P102",
+      "name": "Blue Hills Pet Clinic",
+      "phone": "6444444999",
+      "address": "456 Pet Avenue, TX"
+    },
+    {
+      "practiceNumber": "P103",
+      "name": "Sunny Valley Animal Hospital",
+      "phone": "6555555999",
+      "address": "789 Animal Road, NY"
+    },
+    {
+      "practiceNumber": "P104",
+      "name": "Pine Woods Veterinary Center",
+      "phone": "6666666999",
+      "address": "321 Forest Lane, FL"
+    },
+    {
+      "practiceNumber": "P105",
+      "name": "Golden Meadow Pet Clinic",
+      "phone": "6777777999",
+      "address": "654 Meadow Blvd, OH"
+    },
+    {
+      "practiceNumber": "P106",
+      "name": "Silver Lake Animal Hospital",
+      "phone": "6888888999",
+      "address": "987 Silver Lake Road, NV"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "100001",
+      "product_name": "Dog Pain Relief Medicine",
+      "product_min_weight": 10,
+      "product_max_weight": 100,
+      "product_instock": 50,
+      "product_online": true,
+      "product_valid_from": "2024-01-01",
+      "product_valid_to": "2024-12-31",
+      "product_species": [
+        "Dog"
+      ]
+    },
+    {
+      "product_id": "100002",
+      "product_name": "Flea and Tick Prevention",
+      "product_min_weight": 5,
+      "product_max_weight": 80,
+      "product_instock": 30,
+      "product_online": true,
+      "product_valid_from": "2024-01-01",
+      "product_valid_to": "2025-01-01",
+      "product_species": [
+        "Dog",
+        "Cat"
+      ]
+    },
+    {
+      "product_id": "100003",
+      "product_name": "Cat Joint Support Tablets",
+      "product_min_weight": 2,
+      "product_max_weight": 25,
+      "product_instock": 40,
+      "product_online": true,
+      "product_valid_from": "2023-12-01",
+      "product_valid_to": "2024-12-01",
+      "product_species": [
+        "Cat"
+      ]
+    },
+    {
+      "product_id": "100004",
+      "product_name": "Equine Muscle Recovery Gel",
+      "product_min_weight": 400,
+      "product_max_weight": 1500,
+      "product_instock": 15,
+      "product_online": true,
+      "product_valid_from": "2023-11-01",
+      "product_valid_to": "2024-11-01",
+      "product_species": [
+        "Horse"
+      ]
+    },
+    {
+      "product_id": "100005",
+      "product_name": "Puppy Growth Multivitamins",
+      "product_min_weight": 1,
+      "product_max_weight": 30,
+      "product_instock": 70,
+      "product_online": true,
+      "product_valid_from": "2024-01-01",
+      "product_valid_to": "2024-12-31",
+      "product_species": [
+        "Dog"
+      ]
+    },
+    {
+      "product_id": "100006",
+      "product_name": "Cat Coat Shine Spray",
+      "product_min_weight": 3,
+      "product_max_weight": 20,
+      "product_instock": 20,
+      "product_online": true,
+      "product_valid_from": "2024-02-01",
+      "product_valid_to": "2024-12-31",
+      "product_species": [
+        "Cat"
+      ]
+    },
+    {
+      "product_id": "100007",
+      "product_name": "Large Breed Dog Food",
+      "product_min_weight": 50,
+      "product_max_weight": 120,
+      "product_instock": 25,
+      "product_online": true,
+      "product_valid_from": "2023-10-01",
+      "product_valid_to": "2024-10-01",
+      "product_species": [
+        "Dog"
+      ]
+    },
+    {
+      "product_id": "100008",
+      "product_name": "Small Animal Wound Care",
+      "product_min_weight": 0.5,
+      "product_max_weight": 15,
+      "product_instock": 35,
+      "product_online": true,
+      "product_valid_from": "2024-01-15",
+      "product_valid_to": "2024-12-15",
+      "product_species": [
+        "Rabbit",
+        "Guinea Pig"
+      ]
+    },
+    {
+      "product_id": "100009",
+      "product_name": "Bird Vitamin Powder",
+      "product_min_weight": 0.1,
+      "product_max_weight": 2,
+      "product_instock": 60,
+      "product_online": true,
+      "product_valid_from": "2024-03-01",
+      "product_valid_to": "2024-12-31",
+      "product_species": [
+        "Bird"
+      ]
+    },
+    {
+      "product_id": "100010",
+      "product_name": "Fish Water Conditioner",
+      "product_min_weight": 1,
+      "product_max_weight": 10,
+      "product_instock": 45,
+      "product_online": true,
+      "product_valid_from": "2024-01-01",
+      "product_valid_to": "2024-12-31",
+      "product_species": [
+        "Fish"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "rx_no": "34500001",
+      "customer_id": "C001",
+      "order_type": "First Fill",
+      "order_date": "2024-12-01",
+      "client_name": "Alice Johnson",
+      "pet_details": {
+        "name": "Max",
+        "age": "4",
+        "type": "Dog",
+        "breed": "Bulldog",
+        "weight": 50,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "123 Elm Street, NY",
+      "customer_phone": "9876543210",
+      "rx_info": "100001",
+      "quantity": {
+        "value": 1,
+        "unit": "bottle"
+      },
+      "refills": 3,
+      "instructions": "Give twice daily",
+      "practice_phone": "6333333999",
+      "vet_name": "John Doe",
+      "vet_license": "CA12345"
+    },
+    {
+      "rx_no": "34500002",
+      "customer_id": "C002",
+      "order_type": "Refill",
+      "order_date": "2024-12-02",
+      "client_name": "Bob Smith",
+      "pet_details": {
+        "name": "Luna",
+        "age": "2",
+        "type": "Cat",
+        "breed": "Siamese",
+        "weight": 12,
+        "weight_unit": "lbs",
+        "sex": "Female"
+      },
+      "customer_address": "456 Oak Avenue, TX",
+      "customer_phone": "8765432109",
+      "rx_info": "100002",
+      "quantity": {
+        "value": 2,
+        "unit": "boxes"
+      },
+      "refills": 2,
+      "instructions": "Apply once weekly",
+      "practice_phone": "6444444999",
+      "vet_name": "Emma Brown",
+      "vet_license": "TX56789"
+    },
+    {
+      "rx_no": "34500003",
+      "customer_id": "C003",
+      "order_type": "First Fill",
+      "order_date": "2024-12-03",
+      "client_name": "Charlie Davis",
+      "pet_details": {
+        "name": "Bella",
+        "age": "5",
+        "type": "Dog",
+        "breed": "Golden Retriever",
+        "weight": 70,
+        "weight_unit": "lbs",
+        "sex": "Female"
+      },
+      "customer_address": "789 Maple Drive, CA",
+      "customer_phone": "7654321098",
+      "rx_info": "100003",
+      "quantity": {
+        "value": 1,
+        "unit": "packet"
+      },
+      "refills": 5,
+      "instructions": "Mix with food once daily",
+      "practice_phone": "6333333999",
+      "vet_name": "Sarah Smith",
+      "vet_license": "CA98765"
+    },
+    {
+      "rx_no": "34500004",
+      "customer_id": "C004",
+      "order_type": "Refill",
+      "order_date": "2024-12-04",
+      "client_name": "Diana Evans",
+      "pet_details": {
+        "name": "Rocky",
+        "age": "6",
+        "type": "Dog",
+        "breed": "Labrador",
+        "weight": 80,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "321 Pine Lane, FL",
+      "customer_phone": "6543210987",
+      "rx_info": "100004",
+      "quantity": {
+        "value": 3,
+        "unit": "tubes"
+      },
+      "refills": 1,
+      "instructions": "Apply on joints daily",
+      "practice_phone": "6666666999",
+      "vet_name": "Michael Green",
+      "vet_license": "FL12345"
+    },
+    {
+      "rx_no": "34500005",
+      "customer_id": "C005",
+      "order_type": "First Fill",
+      "order_date": "2024-12-05",
+      "client_name": "Ethan Carter",
+      "pet_details": {
+        "name": "Milo",
+        "age": "3",
+        "type": "Cat",
+        "breed": "Persian",
+        "weight": 15,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "654 Birch Court, OH",
+      "customer_phone": "5432109876",
+      "rx_info": "100005",
+      "quantity": {
+        "value": 1,
+        "unit": "bottle"
+      },
+      "refills": 4,
+      "instructions": "Give once daily",
+      "practice_phone": "6777777999",
+      "vet_name": "Olivia White",
+      "vet_license": "OH98765"
+    },
+    {
+      "rx_no": "34500006",
+      "customer_id": "C006",
+      "order_type": "First Fill",
+      "order_date": "2024-12-06",
+      "client_name": "Fiona Adams",
+      "pet_details": {
+        "name": "Buddy",
+        "age": "8",
+        "type": "Dog",
+        "breed": "Beagle",
+        "weight": 35,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "789 Cedar Circle, NV",
+      "customer_phone": "4321098765",
+      "rx_info": "100006",
+      "quantity": {
+        "value": 2,
+        "unit": "sprays"
+      },
+      "refills": 2,
+      "instructions": "Spray on coat once a week",
+      "practice_phone": "6888888999",
+      "vet_name": "Emma Brown",
+      "vet_license": "NV54321"
+    },
+    {
+      "rx_no": "34500007",
+      "customer_id": "C007",
+      "order_type": "First Fill",
+      "order_date": "2024-12-07",
+      "client_name": "George Benson",
+      "pet_details": {
+        "name": "Simba",
+        "age": "2",
+        "type": "Cat",
+        "breed": "Bengal",
+        "weight": 20,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "123 Willow Way, CA",
+      "customer_phone": "3210987654",
+      "rx_info": "100007",
+      "quantity": {
+        "value": 1,
+        "unit": "bag"
+      },
+      "refills": 3,
+      "instructions": "Serve twice daily",
+      "practice_phone": "6333333999",
+      "vet_name": "John Doe",
+      "vet_license": "CA12345"
+    },
+    {
+      "rx_no": "34500008",
+      "customer_id": "C008",
+      "order_type": "Refill",
+      "order_date": "2024-12-08",
+      "client_name": "Hannah Cook",
+      "pet_details": {
+        "name": "Daisy",
+        "age": "1",
+        "type": "Rabbit",
+        "breed": "Holland Lop",
+        "weight": 4,
+        "weight_unit": "lbs",
+        "sex": "Female"
+      },
+      "customer_address": "456 Maple View, TX",
+      "customer_phone": "2109876543",
+      "rx_info": "100008",
+      "quantity": {
+        "value": 1,
+        "unit": "tube"
+      },
+      "refills": 1,
+      "instructions": "Apply on wound twice daily",
+      "practice_phone": "6444444999",
+      "vet_name": "Sarah Smith",
+      "vet_license": "TX67890"
+    },
+    {
+      "rx_no": "34500009",
+      "customer_id": "C009",
+      "order_type": "First Fill",
+      "order_date": "2024-12-09",
+      "client_name": "Isaac Ford",
+      "pet_details": {
+        "name": "Coco",
+        "age": "6 months",
+        "type": "Bird",
+        "breed": "Parrot",
+        "weight": 1.5,
+        "weight_unit": "lbs",
+        "sex": "Female"
+      },
+      "customer_address": "789 Oak Drive, NY",
+      "customer_phone": "1098765432",
+      "rx_info": "100009",
+      "quantity": {
+        "value": 1,
+        "unit": "pack"
+      },
+      "refills": 2,
+      "instructions": "Mix in water once daily",
+      "practice_phone": "6555555999",
+      "vet_name": "Emma Brown",
+      "vet_license": "NY54321"
+    },
+    {
+      "rx_no": "34500010",
+      "customer_id": "C010",
+      "order_type": "Refill",
+      "order_date": "2024-12-10",
+      "client_name": "Jackie Wilson",
+      "pet_details": {
+        "name": "Goldy",
+        "age": "3",
+        "type": "Fish",
+        "breed": "Goldfish",
+        "weight": 0.5,
+        "weight_unit": "lbs",
+        "sex": "Male"
+      },
+      "customer_address": "123 Water Street, FL",
+      "customer_phone": "0987654321",
+      "rx_info": "100010",
+      "quantity": {
+        "value": 1,
+        "unit": "jar"
+      },
+      "refills": 0,
+      "instructions": "Mix in tank water weekly",
+      "practice_phone": "6666666999",
+      "vet_name": "Michael Green",
+      "vet_license": "FL12345"
+    }
+  ]
 }
