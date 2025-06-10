@@ -1,8 +1,8 @@
 {
   "orders": [
     {
-      "orderId": "ORD100001",
-      "orderDate": "2025-06-08",
+      "order_id": "ORD100001",
+      "order_date": "2025-06-08",
       "products": [
         {
           "product_sku": "PROD001",
@@ -22,8 +22,8 @@
       ]
     },
     {
-      "orderId": "ORD100002",
-      "orderDate": "2025-06-09",
+      "order_id": "ORD100002",
+      "order_date": "2025-06-09",
       "products": [
         {
           "product_sku": "PROD002",
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "orderId": "ORD100003",
-      "orderDate": "2025-06-07",
+      "order_id": "ORD100003",
+      "order_date": "2025-06-07",
       "products": [
         {
           "product_sku": "PROD003",
@@ -64,8 +64,8 @@
       ]
     },
     {
-      "orderId": "ORD100004",
-      "orderDate": "2025-06-10",
+      "order_id": "ORD100004",
+      "order_date": "2025-06-10",
       "products": [
         {
           "product_sku": "PROD004",
@@ -94,8 +94,8 @@
       ]
     },
     {
-      "orderId": "ORD100005",
-      "orderDate": "2025-06-06",
+      "order_id": "ORD100005",
+      "order_date": "2025-06-06",
       "products": [
         {
           "product_sku": "PROD005",
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "orderId": "ORD100006",
-      "orderDate": "2025-06-05",
+      "order_id": "ORD100006",
+      "order_date": "2025-06-05",
       "products": [
         {
           "product_sku": "PROD006",
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "orderId": "ORD100007",
-      "orderDate": "2025-06-04",
+      "order_id": "ORD100007",
+      "order_date": "2025-06-04",
       "products": [
         {
           "product_sku": "PROD007",
@@ -148,8 +148,8 @@
       ]
     },
     {
-      "orderId": "ORD100008",
-      "orderDate": "2025-06-03",
+      "order_id": "ORD100008",
+      "order_date": "2025-06-03",
       "products": [
         {
           "product_sku": "PROD008",
@@ -169,8 +169,8 @@
       ]
     },
     {
-      "orderId": "ORD100009",
-      "orderDate": "2025-06-02",
+      "order_id": "ORD100009",
+      "order_date": "2025-06-02",
       "products": [
         {
           "product_sku": "PROD009",
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "orderId": "ORD100010",
-      "orderDate": "2025-06-01",
+      "order_id": "ORD100010",
+      "order_date": "2025-06-01",
       "products": [
         {
           "product_sku": "PROD010",
