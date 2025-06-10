@@ -1,194 +1,412 @@
 {
+  "orders": [
+    {
+      "orderId": "ORD100001",
+      "orderDate": "2025-06-08",
+      "products": [
+        {
+          "productSku": "PROD001",
+          "productName": "Heartworm Preventive Chewables",
+          "productType": "rx",
+          "orderItemStatus": "pending approval",
+          "sentToVetDate": "2025-06-08",
+          "vetName": "Dr. Sarah Miller",
+          "vetContact": "sarah.miller@vetcare.org"
+        },
+        {
+          "productSku": "PROD005",
+          "productName": "Joint Support Supplement",
+          "productType": "otc",
+          "orderItemStatus": "shipped"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100002",
+      "orderDate": "2025-06-09",
+      "products": [
+        {
+          "productSku": "PROD002",
+          "productName": "Flea & Tick Topical Solution",
+          "productType": "rx",
+          "orderItemStatus": "approved",
+          "sentToVetDate": "2025-06-09",
+          "vetName": "Dr. Emily Carter",
+          "vetContact": "emily.carter@vetclinic.com"
+        },
+        {
+          "productSku": "PROD008",
+          "productName": "Dental Chews",
+          "productType": "otc",
+          "orderItemStatus": "delivered"
+        },
+        {
+          "productSku": "PROD010",
+          "productName": "Calming Treats",
+          "productType": "otc",
+          "orderItemStatus": "processing"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100003",
+      "orderDate": "2025-06-07",
+      "products": [
+        {
+          "productSku": "PROD003",
+          "productName": "Antibiotic Oral Suspension",
+          "productType": "rx",
+          "orderItemStatus": "rejected",
+          "sentToVetDate": "2025-06-07",
+          "vetName": "Dr. David Lee",
+          "vetContact": "david.lee@animalhospital.net"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100004",
+      "orderDate": "2025-06-10",
+      "products": [
+        {
+          "productSku": "PROD004",
+          "productName": "Allergy Relief Tablets",
+          "productType": "rx",
+          "orderItemStatus": "pending approval",
+          "sentToVetDate": "2025-06-10",
+          "vetName": "Dr. Olivia White",
+          "vetContact": "olivia.white@petmeds.biz"
+        },
+        {
+          "productSku": "PROD001",
+          "productName": "Heartworm Preventive Chewables",
+          "productType": "rx",
+          "orderItemStatus": "processing",
+          "sentToVetDate": "2025-06-10",
+          "vetName": "Dr. Olivia White",
+          "vetContact": "olivia.white@petmeds.biz"
+        },
+        {
+          "productSku": "PROD007",
+          "productName": "Digestive Support Probiotics",
+          "productType": "otc",
+          "orderItemStatus": "cancelled"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100005",
+      "orderDate": "2025-06-06",
+      "products": [
+        {
+          "productSku": "PROD005",
+          "productName": "Joint Support Supplement",
+          "productType": "otc",
+          "orderItemStatus": "shipped"
+        },
+        {
+          "productSku": "PROD009",
+          "productName": "Ear Cleaning Solution",
+          "productType": "otc",
+          "orderItemStatus": "delivered"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100006",
+      "orderDate": "2025-06-05",
+      "products": [
+        {
+          "productSku": "PROD006",
+          "productName": "Pain Relief Medication",
+          "productType": "rx",
+          "orderItemStatus": "shipped",
+          "sentToVetDate": "2025-06-05",
+          "vetName": "Dr. Mark Johnson",
+          "vetContact": "mark.johnson@vetassociates.co"
+        },
+        {
+          "productSku": "PROD002",
+          "productName": "Flea & Tick Topical Solution",
+          "productType": "rx",
+          "orderItemStatus": "approved",
+          "sentToVetDate": "2025-06-05",
+          "vetName": "Dr. Mark Johnson",
+          "vetContact": "mark.johnson@vetassociates.co"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100007",
+      "orderDate": "2025-06-04",
+      "products": [
+        {
+          "productSku": "PROD007",
+          "productName": "Digestive Support Probiotics",
+          "productType": "otc",
+          "orderItemStatus": "processing"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100008",
+      "orderDate": "2025-06-03",
+      "products": [
+        {
+          "productSku": "PROD008",
+          "productName": "Dental Chews",
+          "productType": "otc",
+          "orderItemStatus": "cancelled"
+        },
+        {
+          "productSku": "PROD003",
+          "productName": "Antibiotic Oral Suspension",
+          "productType": "rx",
+          "orderItemStatus": "pending approval",
+          "sentToVetDate": "2025-06-03",
+          "vetName": "Dr. Jessica Brown",
+          "vetContact": "jessica.brown@cityvet.org"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100009",
+      "orderDate": "2025-06-02",
+      "products": [
+        {
+          "productSku": "PROD009",
+          "productName": "Ear Cleaning Solution",
+          "productType": "otc",
+          "orderItemStatus": "shipped"
+        },
+        {
+          "productSku": "PROD010",
+          "productName": "Calming Treats",
+          "productType": "otc",
+          "orderItemStatus": "delivered"
+        },
+        {
+          "productSku": "PROD004",
+          "productName": "Allergy Relief Tablets",
+          "productType": "rx",
+          "orderItemStatus": "approved",
+          "sentToVetDate": "2025-06-02",
+          "vetName": "Dr. Christopher Green",
+          "vetContact": "chris.green@healthypaws.net"
+        }
+      ]
+    },
+    {
+      "orderId": "ORD100010",
+      "orderDate": "2025-06-01",
+      "products": [
+        {
+          "productSku": "PROD010",
+          "productName": "Calming Treats",
+          "productType": "otc",
+          "orderItemStatus": "processing"
+        },
+        {
+          "productSku": "PROD006",
+          "productName": "Pain Relief Medication",
+          "productType": "rx",
+          "orderItemStatus": "pending approval",
+          "sentToVetDate": "2025-06-01",
+          "vetName": "Dr. Sarah Miller",
+          "vetContact": "sarah.miller@vetcare.org"
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "product_sku": "PROD001",
-      "product_name": "Joint Support Chews",
-      "product_brand": "PetCarePlus",
+      "product_name": "Heartworm Preventive Chewables",
+      "product_brand": "VetShield",
       "product_vet_authorized": true,
       "product_in_stock": true,
-      "product_details": "Soft chews to support joint health in dogs.",
-      "product_prescription_item": false,
-      "product_benefits": "Improves mobility, reduces inflammation",
+      "product_details": "Monthly chewables for preventing heartworm disease in dogs.",
+      "product_prescription_item": true,
+      "product_benefits": "Heartworm prevention, treats intestinal parasites",
       "product_active": true,
-      "product_pet_size": "Large",
-      "product_sales_volume": 1520,
+      "product_pet_size": "Medium",
+      "product_sales_volume": 2500,
       "product_life_stage": "Adult",
       "product_foodform": "Chewable",
       "product_species": "Dog",
-      "product_expert_rating": 4.6,
-      "product_health_condition_therapy": "Joint Health",
-      "product_ingredients": "Glucosamine, Chondroitin, MSM"
+      "product_expert_rating": 4.8,
+      "product_health_condition_therapy": "Parasite Control",
+      "product_ingredients": "Ivermectin, Pyrantel"
     },
     {
       "product_sku": "PROD002",
-      "product_name": "Healthy Coat Omega Oil",
-      "product_brand": "FurGlow",
-      "product_vet_authorized": false,
+      "product_name": "Flea & Tick Topical Solution",
+      "product_brand": "BugAway",
+      "product_vet_authorized": true,
       "product_in_stock": true,
-      "product_details": "Omega oil supplement for skin and coat health.",
-      "product_prescription_item": false,
-      "product_benefits": "Shiny coat, reduced shedding",
+      "product_details": "Fast-acting topical solution for fleas and ticks on dogs.",
+      "product_prescription_item": true,
+      "product_benefits": "Kills fleas, ticks, prevents infestations",
       "product_active": true,
-      "product_pet_size": "All",
-      "product_sales_volume": 3100,
-      "product_life_stage": "All Life Stages",
+      "product_pet_size": "All Sizes",
+      "product_sales_volume": 3200,
+      "product_life_stage": "Adult",
       "product_foodform": "Liquid",
-      "product_species": "Cat",
-      "product_expert_rating": 4.8,
-      "product_health_condition_therapy": "Skin & Coat",
-      "product_ingredients": "Omega-3, Omega-6, Vitamin E"
+      "product_species": "Dog",
+      "product_expert_rating": 4.7,
+      "product_health_condition_therapy": "Parasite Control",
+      "product_ingredients": "Fipronil, (S)-Methoprene"
     },
     {
       "product_sku": "PROD003",
-      "product_name": "Kidney Support Diet",
-      "product_brand": "VetLife",
+      "product_name": "Antibiotic Oral Suspension",
+      "product_brand": "MediPet",
       "product_vet_authorized": true,
-      "product_in_stock": false,
-      "product_details": "Prescription diet formulated for kidney support.",
+      "product_in_stock": true,
+      "product_details": "Broad-spectrum antibiotic for bacterial infections in pets.",
       "product_prescription_item": true,
-      "product_benefits": "Supports kidney function",
+      "product_benefits": "Treats bacterial infections, promotes recovery",
       "product_active": true,
-      "product_pet_size": "Medium",
-      "product_sales_volume": 890,
-      "product_life_stage": "Senior",
-      "product_foodform": "Dry Kibble",
-      "product_species": "Dog",
-      "product_expert_rating": 4.4,
-      "product_health_condition_therapy": "Kidney Disease",
-      "product_ingredients": "Chicken, Brown Rice, Fish Oil, Vitamins"
+      "product_pet_size": "All Sizes",
+      "product_sales_volume": 1800,
+      "product_life_stage": "All Life Stages",
+      "product_foodform": "Liquid",
+      "product_species": "Cat, Dog",
+      "product_expert_rating": 4.5,
+      "product_health_condition_therapy": "Infection Treatment",
+      "product_ingredients": "Amoxicillin, Clavulanate Potassium"
     },
     {
       "product_sku": "PROD004",
-      "product_name": "Digestive Health Formula",
-      "product_brand": "BioPet",
+      "product_name": "Allergy Relief Tablets",
+      "product_brand": "ReliefRx",
       "product_vet_authorized": true,
       "product_in_stock": true,
-      "product_details": "Supports gastrointestinal health for dogs and cats.",
-      "product_prescription_item": false,
-      "product_benefits": "Improves digestion, boosts gut flora",
-      "product_active": true,
-      "product_pet_size": "All",
-      "product_sales_volume": 2010,
-      "product_life_stage": "All Life Stages",
-      "product_foodform": "Powder",
-      "product_species": "Dog",
-      "product_expert_rating": 4.7,
-      "product_health_condition_therapy": "Digestive Issues",
-      "product_ingredients": "Probiotics, Prebiotics, Enzymes"
-    },
-    {
-      "product_sku": "PROD005",
-      "product_name": "Weight Management Bites",
-      "product_brand": "TrimTails",
-      "product_vet_authorized": false,
-      "product_in_stock": true,
-      "product_details": "Low-calorie treats for overweight pets.",
-      "product_prescription_item": false,
-      "product_benefits": "Helps maintain healthy weight",
-      "product_active": true,
-      "product_pet_size": "Small",
-      "product_sales_volume": 1750,
-      "product_life_stage": "Adult",
-      "product_foodform": "Chewable",
-      "product_species": "Cat",
-      "product_expert_rating": 4.5,
-      "product_health_condition_therapy": "Obesity",
-      "product_ingredients": "L-Carnitine, Fiber Blend, Chicken"
-    },
-    {
-      "product_sku": "PROD006",
-      "product_name": "Urinary Care Cat Food",
-      "product_brand": "FelineWell",
-      "product_vet_authorized": true,
-      "product_in_stock": true,
-      "product_details": "Designed to support urinary tract health in cats.",
+      "product_details": "Tablets for managing seasonal allergies and skin irritation in dogs.",
       "product_prescription_item": true,
-      "product_benefits": "Reduces urinary crystals",
-      "product_active": true,
-      "product_pet_size": "Medium",
-      "product_sales_volume": 1325,
-      "product_life_stage": "Adult",
-      "product_foodform": "Dry Kibble",
-      "product_species": "Cat",
-      "product_expert_rating": 4.6,
-      "product_health_condition_therapy": "Urinary Tract Health",
-      "product_ingredients": "Turkey, Cranberry, DL-Methionine"
-    },
-    {
-      "product_sku": "PROD007",
-      "product_name": "Calm & Relax Soft Chews",
-      "product_brand": "ZenPets",
-      "product_vet_authorized": false,
-      "product_in_stock": true,
-      "product_details": "Natural calming chews for stress and anxiety.",
-      "product_prescription_item": false,
-      "product_benefits": "Reduces stress and anxiety",
-      "product_active": true,
-      "product_pet_size": "All",
-      "product_sales_volume": 2230,
-      "product_life_stage": "All Life Stages",
-      "product_foodform": "Chewable",
-      "product_species": "Dog",
-      "product_expert_rating": 4.9,
-      "product_health_condition_therapy": "Anxiety",
-      "product_ingredients": "Chamomile, L-Theanine, Melatonin"
-    },
-    {
-      "product_sku": "PROD008",
-      "product_name": "Puppy Growth Formula",
-      "product_brand": "GrowPup",
-      "product_vet_authorized": false,
-      "product_in_stock": true,
-      "product_details": "Complete nutrition for growing puppies.",
-      "product_prescription_item": false,
-      "product_benefits": "Supports bone and brain development",
+      "product_benefits": "Reduces itching, soothes skin, controls allergic reactions",
       "product_active": true,
       "product_pet_size": "Small",
-      "product_sales_volume": 1980,
-      "product_life_stage": "Puppy",
-      "product_foodform": "Dry Kibble",
-      "product_species": "Dog",
-      "product_expert_rating": 4.4,
-      "product_health_condition_therapy": "Growth Support",
-      "product_ingredients": "Chicken, Fish Oil, DHA"
-    },
-    {
-      "product_sku": "PROD009",
-      "product_name": "Senior Vitality Formula",
-      "product_brand": "SilverWhiskers",
-      "product_vet_authorized": true,
-      "product_in_stock": true,
-      "product_details": "Tailored nutrition for senior cats.",
-      "product_prescription_item": false,
-      "product_benefits": "Boosts energy, supports aging organs",
-      "product_active": true,
-      "product_pet_size": "Small",
-      "product_sales_volume": 1190,
-      "product_life_stage": "Senior",
-      "product_foodform": "Wet Food",
-      "product_species": "Cat",
-      "product_expert_rating": 4.3,
-      "product_health_condition_therapy": "Aging Support",
-      "product_ingredients": "Tuna, Carrots, Taurine"
-    },
-    {
-      "product_sku": "PROD010",
-      "product_name": "Allergy Relief Tabs",
-      "product_brand": "PawSure",
-      "product_vet_authorized": true,
-      "product_in_stock": true,
-      "product_details": "Helps manage environmental allergies.",
-      "product_prescription_item": true,
-      "product_benefits": "Reduces itching and irritation",
-      "product_active": true,
-      "product_pet_size": "All",
-      "product_sales_volume": 1620,
+      "product_sales_volume": 1950,
       "product_life_stage": "Adult",
       "product_foodform": "Tablet",
       "product_species": "Dog",
       "product_expert_rating": 4.6,
-      "product_health_condition_therapy": "Allergies",
-      "product_ingredients": "Quercetin, Bromelain, Licorice Root"
+      "product_health_condition_therapy": "Allergy Relief",
+      "product_ingredients": "Apoquel (Oclacitinib)"
+    },
+    {
+      "product_sku": "PROD005",
+      "product_name": "Joint Support Supplement",
+      "product_brand": "MotionMax",
+      "product_vet_authorized": false,
+      "product_in_stock": true,
+      "product_details": "Powder supplement for improving mobility and joint health in senior pets.",
+      "product_prescription_item": false,
+      "product_benefits": "Supports cartilage, reduces stiffness, enhances flexibility",
+      "product_active": true,
+      "product_pet_size": "Large",
+      "product_sales_volume": 1520,
+      "product_life_stage": "Senior",
+      "product_foodform": "Powder",
+      "product_species": "Dog, Cat",
+      "product_expert_rating": 4.6,
+      "product_health_condition_therapy": "Joint Health",
+      "product_ingredients": "Glucosamine, Chondroitin, MSM, Hyaluronic Acid"
+    },
+    {
+      "product_sku": "PROD006",
+      "product_name": "Pain Relief Medication",
+      "product_brand": "ComfortPet",
+      "product_vet_authorized": true,
+      "product_in_stock": true,
+      "product_details": "Non-steroidal anti-inflammatory drug (NSAID) for pain and inflammation.",
+      "product_prescription_item": true,
+      "product_benefits": "Reduces pain, decreases inflammation, improves comfort",
+      "product_active": true,
+      "product_pet_size": "All Sizes",
+      "product_sales_volume": 1700,
+      "product_life_stage": "Adult",
+      "product_foodform": "Tablet",
+      "product_species": "Dog",
+      "product_expert_rating": 4.7,
+      "product_health_condition_therapy": "Pain Management",
+      "product_ingredients": "Carprofen"
+    },
+    {
+      "product_sku": "PROD007",
+      "product_name": "Digestive Support Probiotics",
+      "product_brand": "GutFlora",
+      "product_vet_authorized": false,
+      "product_in_stock": true,
+      "product_details": "Probiotic supplement for maintaining a healthy digestive system.",
+      "product_prescription_item": false,
+      "product_benefits": "Aids digestion, improves nutrient absorption, strengthens immune system",
+      "product_active": true,
+      "product_pet_size": "All Sizes",
+      "product_sales_volume": 1300,
+      "product_life_stage": "All Life Stages",
+      "product_foodform": "Powder",
+      "product_species": "Dog, Cat",
+      "product_expert_rating": 4.5,
+      "product_health_condition_therapy": "Digestive Health",
+      "product_ingredients": "Lactobacillus Acidophilus, Bifidobacterium Animalis"
+    },
+    {
+      "product_sku": "PROD008",
+      "product_name": "Dental Chews",
+      "product_brand": "BrightBites",
+      "product_vet_authorized": false,
+      "product_in_stock": true,
+      "product_details": "Daily dental chews designed to reduce plaque and tartar buildup.",
+      "product_prescription_item": false,
+      "product_benefits": "Cleans teeth, freshens breath, supports gum health",
+      "product_active": true,
+      "product_pet_size": "Medium",
+      "product_sales_volume": 2100,
+      "product_life_stage": "Adult",
+      "product_foodform": "Chewable",
+      "product_species": "Dog",
+      "product_expert_rating": 4.4,
+      "product_health_condition_therapy": "Dental Health",
+      "product_ingredients": "Corn starch, Glycerin, Water"
+    },
+    {
+      "product_sku": "PROD009",
+      "product_name": "Ear Cleaning Solution",
+      "product_brand": "ClearEars",
+      "product_vet_authorized": false,
+      "product_in_stock": true,
+      "product_details": "Gentle solution for routine ear cleaning and odor control.",
+      "product_prescription_item": false,
+      "product_benefits": "Removes wax and debris, reduces odor, prevents ear infections",
+      "product_active": true,
+      "product_pet_size": "All Sizes",
+      "product_sales_volume": 1100,
+      "product_life_stage": "All Life Stages",
+      "product_foodform": "Liquid",
+      "product_species": "Dog, Cat",
+      "product_expert_rating": 4.3,
+      "product_health_condition_therapy": "Ear Care",
+      "product_ingredients": "Salicylic Acid, Lactic Acid, Aloe Vera"
+    },
+    {
+      "product_sku": "PROD010",
+      "product_name": "Calming Treats",
+      "product_brand": "ZenPet",
+      "product_vet_authorized": false,
+      "product_in_stock": true,
+      "product_details": "Soft chews to help reduce anxiety and stress in pets.",
+      "product_prescription_item": false,
+      "product_benefits": "Promotes relaxation, reduces anxiety during stressful events, soothes hyperactivity",
+      "product_active": true,
+      "product_pet_size": "Small",
+      "product_sales_volume": 1600,
+      "product_life_stage": "All Life Stages",
+      "product_foodform": "Chewable",
+      "product_species": "Dog, Cat",
+      "product_expert_rating": 4.5,
+      "product_health_condition_therapy": "Anxiety & Stress Relief",
+      "product_ingredients": "L-Tryptophan, Chamomile, Thiamine"
     }
   ]
 }
