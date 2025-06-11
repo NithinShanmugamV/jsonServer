@@ -217,6 +217,239 @@
       ]
     }
   ],
+  "order-items": [
+    {
+      "order_id": "ORD100001",
+      "order_date": "2025-06-08",
+      "product_sku": "PROD001",
+      "product_name": "Heartworm Preventive Chewables",
+      "product_type": "rx",
+      "order_item_status": "pending approval",
+      "sent_to_vet_date": "2025-06-08",
+      "vet_name": "Dr. Sarah Miller",
+      "vet_contact": "sarah.miller@vetcare.org"
+    },
+    {
+      "order_id": "ORD100001",
+      "order_date": "2025-06-08",
+      "product_sku": "PROD005",
+      "product_name": "Joint Support Supplement",
+      "product_type": "otc",
+      "order_item_status": "shipped",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100002",
+      "order_date": "2025-06-09",
+      "product_sku": "PROD002",
+      "product_name": "Flea & Tick Topical Solution",
+      "product_type": "rx",
+      "order_item_status": "approved",
+      "sent_to_vet_date": "2025-06-09",
+      "vet_name": "Dr. Emily Carter",
+      "vet_contact": "emily.carter@vetclinic.com"
+    },
+    {
+      "order_id": "ORD100002",
+      "order_date": "2025-06-09",
+      "product_sku": "PROD008",
+      "product_name": "Dental Chews",
+      "product_type": "otc",
+      "order_item_status": "delivered",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100002",
+      "order_date": "2025-06-09",
+      "product_sku": "PROD010",
+      "product_name": "Calming Treats",
+      "product_type": "otc",
+      "order_item_status": "processing",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100003",
+      "order_date": "2025-06-07",
+      "product_sku": "PROD003",
+      "product_name": "Antibiotic Oral Suspension",
+      "product_type": "rx",
+      "order_item_status": "rejected",
+      "sent_to_vet_date": "2025-06-07",
+      "vet_name": "Dr. David Lee",
+      "vet_contact": "david.lee@animalhospital.net"
+    },
+    {
+      "order_id": "ORD100004",
+      "order_date": "2025-06-10",
+      "product_sku": "PROD004",
+      "product_name": "Allergy Relief Tablets",
+      "product_type": "rx",
+      "order_item_status": "pending approval",
+      "sent_to_vet_date": "2025-06-10",
+      "vet_name": "Dr. Olivia White",
+      "vet_contact": "olivia.white@petmeds.biz"
+    },
+    {
+      "order_id": "ORD100004",
+      "order_date": "2025-06-10",
+      "product_sku": "PROD001",
+      "product_name": "Heartworm Preventive Chewables",
+      "product_type": "rx",
+      "order_item_status": "processing",
+      "sent_to_vet_date": "2025-06-10",
+      "vet_name": "Dr. Olivia White",
+      "vet_contact": "olivia.white@petmeds.biz"
+    },
+    {
+      "order_id": "ORD100004",
+      "order_date": "2025-06-10",
+      "product_sku": "PROD007",
+      "product_name": "Digestive Support Probiotics",
+      "product_type": "otc",
+      "order_item_status": "cancelled",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100005",
+      "order_date": "2025-06-06",
+      "product_sku": "PROD005",
+      "product_name": "Joint Support Supplement",
+      "product_type": "otc",
+      "order_item_status": "shipped",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100005",
+      "order_date": "2025-06-06",
+      "product_sku": "PROD009",
+      "product_name": "Ear Cleaning Solution",
+      "product_type": "otc",
+      "order_item_status": "delivered",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100006",
+      "order_date": "2025-06-05",
+      "product_sku": "PROD006",
+      "product_name": "Pain Relief Medication",
+      "product_type": "rx",
+      "order_item_status": "shipped",
+      "sent_to_vet_date": "2025-06-05",
+      "vet_name": "Dr. Mark Johnson",
+      "vet_contact": "mark.johnson@vetassociates.co"
+    },
+    {
+      "order_id": "ORD100006",
+      "order_date": "2025-06-05",
+      "product_sku": "PROD002",
+      "product_name": "Flea & Tick Topical Solution",
+      "product_type": "rx",
+      "order_item_status": "approved",
+      "sent_to_vet_date": "2025-06-05",
+      "vet_name": "Dr. Mark Johnson",
+      "vet_contact": "mark.johnson@vetassociates.co"
+    },
+    {
+      "order_id": "ORD100007",
+      "order_date": "2025-06-04",
+      "product_sku": "PROD007",
+      "product_name": "Digestive Support Probiotics",
+      "product_type": "otc",
+      "order_item_status": "processing",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100008",
+      "order_date": "2025-06-03",
+      "product_sku": "PROD008",
+      "product_name": "Dental Chews",
+      "product_type": "otc",
+      "order_item_status": "cancelled",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100008",
+      "order_date": "2025-06-03",
+      "product_sku": "PROD003",
+      "product_name": "Antibiotic Oral Suspension",
+      "product_type": "rx",
+      "order_item_status": "pending approval",
+      "sent_to_vet_date": "2025-06-03",
+      "vet_name": "Dr. Jessica Brown",
+      "vet_contact": "jessica.brown@cityvet.org"
+    },
+    {
+      "order_id": "ORD100009",
+      "order_date": "2025-06-02",
+      "product_sku": "PROD009",
+      "product_name": "Ear Cleaning Solution",
+      "product_type": "otc",
+      "order_item_status": "shipped",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100009",
+      "order_date": "2025-06-02",
+      "product_sku": "PROD010",
+      "product_name": "Calming Treats",
+      "product_type": "otc",
+      "order_item_status": "delivered",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100009",
+      "order_date": "2025-06-02",
+      "product_sku": "PROD004",
+      "product_name": "Allergy Relief Tablets",
+      "product_type": "rx",
+      "order_item_status": "approved",
+      "sent_to_vet_date": "2025-06-02",
+      "vet_name": "Dr. Christopher Green",
+      "vet_contact": "chris.green@healthypaws.net"
+    },
+    {
+      "order_id": "ORD100010",
+      "order_date": "2025-06-01",
+      "product_sku": "PROD010",
+      "product_name": "Calming Treats",
+      "product_type": "otc",
+      "order_item_status": "processing",
+      "sent_to_vet_date": null,
+      "vet_name": null,
+      "vet_contact": null
+    },
+    {
+      "order_id": "ORD100010",
+      "order_date": "2025-06-01",
+      "product_sku": "PROD006",
+      "product_name": "Pain Relief Medication",
+      "product_type": "rx",
+      "order_item_status": "pending approval",
+      "sent_to_vet_date": "2025-06-01",
+      "vet_name": "Dr. Sarah Miller",
+      "vet_contact": "sarah.miller@vetcare.org"
+    }
+  ],
   "products": [
     {
       "product_sku": "PROD001",
